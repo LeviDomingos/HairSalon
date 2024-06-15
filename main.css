@@ -1,66 +1,44 @@
-
-.text-welcome {
-color: orange;
-}
-
-.col-center {
+html, body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+}
+.text-pink {
+    color: purple;
+}
+
+.back-ground-color {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+
+.bg-all-service {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+hr.new4 {
+    border: 3px solid blue;
     margin: auto;
+    width: 30%;
 }
 
-.border-wheat{
-    border: 0px solid wheat;
-}
-main {
-    background-color: white;
-}
-
-.nav-bg {
-    background-color: pink;
-    color: black;
-}
-.service {
-    background-color: orange;
-}
-.header-text {
-    color:orange
-}
-.text-home-blue {
-    color: blue;
-}
-
-.hr-one {
-    width: 90%;
-    margin: 2%;
-    border: 2
-    1px solid blue;
-}
-
-.img-px-wide {
-    width: 90%;
-}
-
-.salon-section {
-    width: 100%;
-    background-color: black;
-}
-
-.img-px-wide {
-    width: 500px;
-    height: 500px;
+.male-background-service {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(148,148,215,1) 35%, rgba(102,168,227,1) 55%, rgba(0,212,255,1) 100%);
 }
 
 @media screen and (max-width:700px) {
-
-    .d-flex {
-        display: flex;
-        flex-direction:column;
+    .col {
+        width: 100%;
+        float: left;
+        padding-top:10px;
     }
     .col-6 {
-    width:100%;
-    float:left;
-}
-
+        width: 100%;
+        float: left;
+        padding-top:10px;
+    }
+    
 }
