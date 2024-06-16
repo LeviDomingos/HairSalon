@@ -35,10 +35,4 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(148,148,215,1) 35%, r
         float: left;
         padding-top:10px;
     }
-    .col-6 {
-        width: 100%;
-        float: left;
-        padding-top:10px;
-    }
-    
 }
